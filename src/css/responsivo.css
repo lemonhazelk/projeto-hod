@@ -1,0 +1,30 @@
+@media (max-widht: 1280px) {
+    body {
+        padding: 0 40px;
+        background: linear-gradient(120deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 005926120448179273) 50%, rgba(0, 0, 0, 1) 90%);
+    }
+}
+
+@media (max-width: 768px) {
+    .informacoes.ativa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.informacoes .descricoes {
+    width: 60%;
+    text-align: center;
+}
+
+@media (max-width:425px) {
+    body {
+        padding: 40px;
+    }
+
+    .conteudo {
+        min-width: 70vh;
+        gap: 50px;
+    }
+}
